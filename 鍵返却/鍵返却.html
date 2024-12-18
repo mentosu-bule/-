@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鍵管理システム</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>鍵管理システム</h1>
+    </header>
+    <main>
+        <section id="status-section">
+            <h2>現在の鍵の状況</h2>
+            <p id="current-status">鍵は誰も借りていません。</p>
+        </section>
+
+        <section id="action-section">
+            <h2>鍵の操作</h2>
+            <label for="name-input">名前:</label>
+            <input type="text" id="name-input" placeholder="名前を入力してください">
+            <button id="borrow-button">鍵を借りる</button>
+            <button id="return-button">返却</button>
+            <button id="transfer-button">引継ぎ</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 鍵管理システム</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
